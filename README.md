@@ -1,24 +1,7 @@
-# README
+# Setting Up the Homepage
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Whenever this error pops up
+`Only one usage of each socket address (protocol/network address/port) is normally permitted. - bind(2) for "::1" port 3000 (Errno::EADDRINUSE)`
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Use new port
+`rails s -p 3001`
