@@ -1,8 +1,7 @@
-# Create Recipes
+# Delete Recipes
 
-    This component will contain a form for collecting the required recipe details from the user and will make a request to the create action in the Recipe controller to save the recipe data.
+    When you click the delete button on the recipe page, the application will send a request to delete a recipe from the database. To do this, open up your Recipe.jsx file
 
-1. Create a `NewRecipe.jsx` file in the `app/javascript/components` directory:
+1. Now add a `deleteRecipe` method to the Recipe component:
 
-2. To access this component in the browser, update your route file with its route:
-   `app/javascript/routes/Index.jsx`
+2. To run the code in the `deleteRecipe` method whenever the delete button is clicked, pass it as the click event handler to the button. Add an `onClick` event to the delete button in the render method:
