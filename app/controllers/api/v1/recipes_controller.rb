@@ -26,6 +26,7 @@ class Api::V1::RecipesController < ApplicationController
     render json: { message: 'Recipe deleted!' }
   end
 
+  
   private
 
   def recipe_params
